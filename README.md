@@ -5,6 +5,8 @@ Sexto semestre
 Diseño de aplicaciones web
 Aragón Cruz, Aidée Soledad
 
+Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple. Se puede utilizar en los siguientes lugares: Comentarios de ticket
+
 Headings
 To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).
 
