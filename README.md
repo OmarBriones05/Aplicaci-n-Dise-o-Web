@@ -7,6 +7,30 @@ Aragón Cruz, Aidée Soledad
 
 Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple. Se puede utilizar en los siguientes lugares: Comentarios de ticket
 
+## Opciones de etiquetado en Markdown
+
+Markdown ofrece diversas opciones de etiquetado para dar formato a tus textos. Algunas de las más comunes son:
+
+### Encabezados
+Para crear encabezados de diferentes niveles, usa el símbolo `#`:
+```markdown
+# Encabezado nivel 1
+## Encabezado nivel 2
+### Encabezado nivel 3
+#### Encabezado nivel 4
+
+Agrega la siguiente sección sobre los comandos de Git utilizados para las operaciones solicitadas. Este código también debe incluirse en tu `README.md`.
+
+```markdown
+## Comandos utilizados en Git
+
+Aquí se enumeran los comandos más comunes en Git para manejar un repositorio.
+
+### 1. Comprobar el estado de un repositorio local
+Para ver los cambios no confirmados en el repositorio:
+```bash
+git status
+
 Headings
 To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).
 
