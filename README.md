@@ -7,36 +7,38 @@ Aragón Cruz, Aidée Soledad
 
 Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vínculos e imágenes con facilidad al texto simple. Se puede utilizar en los siguientes lugares: Comentarios de ticket
 
-## Opciones de etiquetado en Markdown
+## Opciones de Etiquetado en Markdown
 
-Markdown ofrece diversas opciones de etiquetado para dar formato a tus textos. Algunas de las más comunes son:
+Markdown ofrece una variedad de etiquetas para formatear texto. Algunas de las opciones más comunes son:
 
 ### Encabezados
-Para crear encabezados de diferentes niveles, usa el símbolo `#`:
-```markdown
-# Encabezado nivel 1
-## Encabezado nivel 2
-### Encabezado nivel 3
-#### Encabezado nivel 4
+Los encabezados se definen con el símbolo `#`. Cuantos más `#`, menor es el nivel del encabezado.
 
-Agrega la siguiente sección sobre los comandos de Git utilizados para las operaciones solicitadas. Este código también debe incluirse en tu `README.md`.
+- `# Encabezado 1`
+- `## Encabezado 2`
+- `### Encabezado 3`
+- `#### Encabezado 4`
 
-```markdown
-## Comandos utilizados en Git
+### Énfasis
+Puedes poner texto en *cursiva* usando un solo asterisco o guión bajo, y en **negrita** usando dos.
 
-Aquí se enumeran los comandos más comunes en Git para manejar un repositorio.
+- `*cursiva*` o `_cursiva_`
+- `**negrita**` o `__negrita__`
 
-### 1. Comprobar el estado de un repositorio local
-Para ver los cambios no confirmados en el repositorio:
-```bash
-git status
+### Listas
+Puedes crear listas ordenadas o desordenadas.
 
+- Lista desordenada:
+  - `- Elemento 1`
+  - `- Elemento 2`
+  
+- Lista ordenada:
+  1. `1. Primer elemento`
+  2. `2. Segundo elemento`
 
-### Consideraciones adicionales:
-- Asegúrate de incluir las secciones de Markdown de manera ordenada en tu `README.md`.
-- Los comandos de Git deben estar dentro de bloques de código (` ```bash ... ``` `) para garantizar que se muestren correctamente en tu archivo.
-
-Si tienes alguna duda o necesitas más detalles sobre los comandos o las opciones de Markdown, ¡no dudes en preguntar!
+### Enlaces y imágenes
+- Enlace: `[Texto del enlace](http://ejemplo.com)`
+- Imagen: `![Texto alternativo](http://url-de-la-imagen.com)`
 
 Headings
 To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).
