@@ -31,6 +31,13 @@ Para ver los cambios no confirmados en el repositorio:
 ```bash
 git status
 
+
+### Consideraciones adicionales:
+- Asegúrate de incluir las secciones de Markdown de manera ordenada en tu `README.md`.
+- Los comandos de Git deben estar dentro de bloques de código (` ```bash ... ``` `) para garantizar que se muestren correctamente en tu archivo.
+
+Si tienes alguna duda o necesitas más detalles sobre los comandos o las opciones de Markdown, ¡no dudes en preguntar!
+
 Headings
 To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).
 
