@@ -9,36 +9,54 @@ Markdown es un lenguaje de marcado sencillo que sirve para agregar formato, vín
 
 ## Opciones de Etiquetado en Markdown
 
-Markdown ofrece una variedad de etiquetas para formatear texto. Algunas de las opciones más comunes son:
+Markdown permite una variedad de opciones para etiquetar y formatear el texto. A continuación se presentan algunas de las más utilizadas:
 
-### Encabezados
-Los encabezados se definen con el símbolo `#`. Cuantos más `#`, menor es el nivel del encabezado.
+### 1. Títulos
+Puedes crear títulos utilizando el símbolo `#`. Cuantos más `#`, menor es el nivel del título:
 
-- `# Encabezado 1`
-- `## Encabezado 2`
-- `### Encabezado 3`
-- `#### Encabezado 4`
+# Título de nivel 1
+## Título de nivel 2
+### Título de nivel 3
 
-### Énfasis
-Puedes poner texto en *cursiva* usando un solo asterisco o guión bajo, y en **negrita** usando dos.
+### 2. Énfasis
+Puedes hacer énfasis en el texto de dos formas:
 
-- `*cursiva*` o `_cursiva_`
-- `**negrita**` o `__negrita__`
-
-### Listas
-Puedes crear listas ordenadas o desordenadas.
-
-- Lista desordenada:
-  - `- Elemento 1`
-  - `- Elemento 2`
+- **Negritas**: Usa dos asteriscos `**` o dos guiones bajos `__` alrededor del texto.
+  - Ejemplo: `**negritas**` o `__negritas__`.
   
-- Lista ordenada:
-  1. `1. Primer elemento`
-  2. `2. Segundo elemento`
+- *Cursivas*: Usa un solo asterisco `*` o guion bajo `_` alrededor del texto.
+  - Ejemplo: `*cursivas*` o `_cursivas_`.
 
-### Enlaces y imágenes
-- Enlace: `[Texto del enlace](http://ejemplo.com)`
-- Imagen: `![Texto alternativo](http://url-de-la-imagen.com)`
+### 3. Listas
+Markdown soporta listas ordenadas y no ordenadas:
+
+- **Lista no ordenada**: Usa un asterisco `*`, un signo más `+`, o un guion `-`.
+  - Ejemplo:
+    ```markdown
+    * Item 1
+    * Item 2
+    ```
+
+- **Lista ordenada**: Usa números seguidos de un punto `1.`, `2.`, etc.
+  - Ejemplo:
+    ```markdown
+    1. Primer item
+    2. Segundo item
+    ```
+
+### 4. Enlaces
+Puedes crear enlaces utilizando corchetes `[]` para el texto y paréntesis `()` para la URL:
+- Ejemplo: `[GitHub](https://github.com/)`
+
+### 5. Imágenes
+Las imágenes se insertan de manera similar a los enlaces, pero con un signo de exclamación `!` antes del texto.
+- Ejemplo: `![Texto alternativo](URL-de-la-imagen)`
+
+### 6. Citas
+Para crear citas, usa el símbolo de mayor que `>`:
+- Ejemplo:
+  ```markdown
+  > Esta es una cita importante.
 
 Headings
 To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).
