@@ -58,6 +58,14 @@ Para crear citas, usa el símbolo de mayor que `>`:
   ```markdown
   > Esta es una cita importante.
 
+## Opciones de Etiquetado en Markdown
+
+(Sección con los ejemplos de Markdown mencionados anteriormente.)
+
+## Comandos Utilizados en Git
+
+(Sección con los comandos Git y su explicación.)
+
 Headings
 To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (<h3>), use three number signs (e.g., ### My Header).
 
